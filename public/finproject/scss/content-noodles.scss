@@ -1,0 +1,369 @@
+.content {
+    //position: absolute;
+    width: 100%;
+   //height: 100%;
+   //top: 110px;
+   margin-top: 110px;
+   
+     
+  
+  .menu-wrapper{
+    .noodles-container{
+      background-color: #e60012;
+      padding: 30px calc(50% - 530px);
+      .title{
+        margin-bottom: 55px;
+        .number{
+          color: rgb(255, 255, 255);
+          font-weight: 500;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      text-align: center;
+        }
+      
+      .wrapper{
+        align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      .titlea{
+        font-size: 32px;
+      font-weight: 800;
+      letter-spacing: 1.6px;
+      line-height: 1;
+      padding: 0 55px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+  
+      }
+      .decoration{
+        
+        border: 1px solid #161616;
+        border-color: rgb(255, 255, 255);
+      display: flex;
+      flex: 1;
+      height: 2px;
+      }
+      }
+      .subtitle{
+        font-weight: 300;
+      letter-spacing: 1.5px;
+      margin-top: 12px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      }
+    }
+  
+  
+  .noodles-menu-list{
+    display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+  
+      .menu-item{
+        margin-right: 33px;
+        min-height: 230px;
+        flex-basis: calc(33% - 33px);
+        width: 200px;
+        
+        
+       .menu-img{
+        margin-bottom: 20px;
+        padding-top: 100%;
+        
+        
+        position: relative;
+        .imga{
+          background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20181206-d6bc64a5a27b52e8a134834f7e45ea5c.jpg);
+          align-items: center;
+              background-position: 50%;
+              background-size: cover;
+              display: flex;
+              height: 100%;
+              justify-content: flex-end;
+              left: 0;
+              position: absolute;
+              top: 0;
+              width: 100%;
+              
+             
+              
+          
+              
+               }
+               .imgb{
+                background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20181206-36776e8b34d6b40d5e2b8a593aa40656.jpg);
+                align-items: center;
+                    background-position: 50%;
+                    background-size: cover;
+                    display: flex;
+                    height: 100%;
+                    justify-content: flex-end;
+                    left: 0;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    
+                   
+                    
+                
+                    
+                     }
+                     .imgc{
+                      background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20181206-91ea1d8cfa4ad4293a4521718fbe96e1.jpg);
+                      align-items: center;
+                          background-position: 50%;
+                          background-size: cover;
+                          display: flex;
+                          height: 100%;
+                          justify-content: flex-end;
+                          left: 0;
+                          position: absolute;
+                          top: 0;
+                          width: 100%;
+                          
+                         
+                          
+                      
+                          
+                           }
+                           .imgd{
+                            background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20181206-82dd42542775036a229d461bcd5356cf.jpg);
+                            align-items: center;
+                                background-position: 50%;
+                                background-size: cover;
+                                display: flex;
+                                height: 100%;
+                                justify-content: flex-end;
+                                left: 0;
+                                position: absolute;
+                                top: 0;
+                                width: 100%;
+                                
+                               
+                                
+                            
+                                
+                                 }
+                                 .imge{
+                                  background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20181206-6f430d8e068c9b1eca49e03fd665adeb.jpg);
+                                  align-items: center;
+                                      background-position: 50%;
+                                      background-size: cover;
+                                      display: flex;
+                                      height: 100%;
+                                      justify-content: flex-end;
+                                      left: 0;
+                                      position: absolute;
+                                      top: 0;
+                                      width: 100%;
+                                      
+                                     
+                                      
+                                  
+                                      
+                                       }
+                                       .imgf{
+                                        background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20191002-07d2d9240d64be1987ebd56a1adb6d1c.jpg);
+                                        align-items: center;
+                                            background-position: 50%;
+                                            background-size: cover;
+                                            display: flex;
+                                            height: 100%;
+                                            justify-content: flex-end;
+                                            left: 0;
+                                            position: absolute;
+                                            top: 0;
+                                            width: 100%;
+                                            
+                                           
+                                            
+                                        
+                                            
+                                             }
+                                             .imgg{
+                                              background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20201109-388f2954e3c734d50b1de5a15b70eb8f.png);
+                                              align-items: center;
+                                                  background-position: 50%;
+                                                  background-size: cover;
+                                                  display: flex;
+                                                  height: 100%;
+                                                  justify-content: flex-end;
+                                                  left: 0;
+                                                  position: absolute;
+                                                  top: 0;
+                                                  width: 100%;
+                                                  
+                                                 
+                                                  
+                                              
+                                                  
+                                                   }
+                                                   .imgh{
+                                                    background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20201123-b4f4b765c086f577d92ebc3a47d6a66e.png);
+                                                    align-items: center;
+                                                        background-position: 50%;
+                                                        background-size: cover;
+                                                        display: flex;
+                                                        height: 100%;
+                                                        justify-content: flex-end;
+                                                        left: 0;
+                                                        position: absolute;
+                                                        top: 0;
+                                                        width: 100%;
+                                                        
+                                                       
+                                                        
+                                                    
+                                                        
+                                                         }
+                                                         .imgi{
+                                                          background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20201123-4535d60721d3c7691ee7d7a3442d93e1.png);
+                                                          align-items: center;
+                                                              background-position: 50%;
+                                                              background-size: cover;
+                                                              display: flex;
+                                                              height: 100%;
+                                                              justify-content: flex-end;
+                                                              left: 0;
+                                                              position: absolute;
+                                                              top: 0;
+                                                              width: 100%;
+                                                              
+                                                             
+                                                              
+                                                          
+                                                              
+                                                               }
+                                                               .imgj{
+                                                                background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20201123-5284f171f2aaa63dc05827abcad78124.png);
+                                                                align-items: center;
+                                                                    background-position: 50%;
+                                                                    background-size: cover;
+                                                                    display: flex;
+                                                                    height: 100%;
+                                                                    justify-content: flex-end;
+                                                                    left: 0;
+                                                                    position: absolute;
+                                                                    top: 0;
+                                                                    width: 100%;
+                                                                    
+                                                                   
+                                                                    
+                                                                
+                                                                    
+                                                                     }
+                                                                     .imgk{
+                                                                      background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20201214-45df20f66ebcc17fedb3176058d9bedc.png);
+                                                                      align-items: center;
+                                                                          background-position: 50%;
+                                                                          background-size: cover;
+                                                                          display: flex;
+                                                                          height: 100%;
+                                                                          justify-content: flex-end;
+                                                                          left: 0;
+                                                                          position: absolute;
+                                                                          top: 0;
+                                                                          width: 100%;
+                                                                          
+                                                                         
+                                                                          
+                                                                      
+                                                                          
+                                                                           }
+                                                                           .imgl{
+                                                                            background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20210805-c11cf36f1be01365ce6c874cbee441cc.png);
+                                                                            align-items: center;
+                                                                                background-position: 50%;
+                                                                                background-size: cover;
+                                                                                display: flex;
+                                                                                height: 100%;
+                                                                                justify-content: flex-end;
+                                                                                left: 0;
+                                                                                position: absolute;
+                                                                                top: 0;
+                                                                                width: 100%;
+                                                                                
+                                                                               
+                                                                                
+                                                                            
+                                                                                
+                                                                                 }
+                                                                                 .imgm{
+                                                                                  background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20210805-1e76ded0f1a8cd3b8ce911ec5ad998f8.png);
+                                                                                  align-items: center;
+                                                                                      background-position: 50%;
+                                                                                      background-size: cover;
+                                                                                      display: flex;
+                                                                                      height: 100%;
+                                                                                      justify-content: flex-end;
+                                                                                      left: 0;
+                                                                                      position: absolute;
+                                                                                      top: 0;
+                                                                                      width: 100%;
+                                                                                      
+                                                                                     
+                                                                                      
+                                                                                  
+                                                                                      
+                                                                                       }
+                                                                                       .imgn{
+                                                                                        background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu/image/20210805-cd4037570fa8772fa8a85116c38ae587.png);
+                                                                                        align-items: center;
+                                                                                            background-position: 50%;
+                                                                                            background-size: cover;
+                                                                                            display: flex;
+                                                                                            height: 100%;
+                                                                                            justify-content: flex-end;
+                                                                                            left: 0;
+                                                                                            position: absolute;
+                                                                                            top: 0;
+                                                                                            width: 100%;
+                                                                                            
+                                                                                           
+                                                                                            
+                                                                                        
+                                                                                            
+                                                                                             }
+        
+       
+      }
+       .menu-container{
+        margin: 0 20px;
+        .menu-header{
+          align-items: center;
+          display: flex;
+          margin-bottom: 8px;
+          color: rgb(255, 255, 255);
+          font-size: 25px;
+          font-weight: 700;
+        }
+        .menu-price{
+          font-size: 22px;
+          font-weight: 700;
+          letter-spacing: 1.1px;
+          margin-bottom: 8px;
+          color: rgb(255, 255, 255);
+          font-size: 25px;
+          font-weight: 700;
+        }
+        .menu-info{
+          color: #231815;
+          letter-spacing: .5px;
+          line-height: 1.57;
+          margin-bottom: 8px;
+          text-align: justify;
+        }
+  
+       }
+       
+       
+  
+      }
+      
+     
+  }
+  }
+  }
+  
+  }

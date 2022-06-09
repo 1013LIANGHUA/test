@@ -1,0 +1,96 @@
+.menuItem{
+    background-color: rgb(0, 0, 0);
+    
+    //flex-direction: column;
+    width: 100%;
+    padding: 30px calc(50% - 530px);
+    
+    .items{
+      display: flex;
+      margin: 20px 0;
+      justify-content: space-around;
+    .itema{
+     
+      max-width: 150px;
+      width: 100%;
+      text-align: center;
+    
+      .imga{
+        
+      background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu_category/20181113-f4b65e2dec086e19dd424abef8fd383f.png);
+      background-position: center;
+        background-size:cover;
+        padding-top: 100%;
+        width: 100%;
+        
+      }
+      .text{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1.7px;
+        margin-top: 20px;
+    
+      }
+      
+    }
+    .itemb{
+     max-width: 150px;
+     width: 100%;
+     text-align: center;
+      .imgb{
+       background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu_category/20181113-07d04a5b448d98ca0f77cb936073c7a4.png);
+       background-position: center;
+        background-size:cover;
+        padding-top: 100%;
+        width: 100%;
+      }
+      .text{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1.7px;
+        margin-top: 20px;
+      }
+    }
+    .itemc{
+      max-width: 150px;
+      width: 100%;
+      text-align: center;
+      .imgc{
+    background-image: url(https://ttfb-bs-s3.25sprout.work/upload/menu_category/20181113-598cb9d688bba33b2d9f7eac2df819a6.png);
+    background-position: center;
+    background-size:cover;
+    padding-top: 100%;
+    width: 100%;
+    }
+      .text{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1.7px;
+        margin-top: 20px;
+      }
+    }
+    .itemd{
+      max-width: 150px;
+      width: 100%;
+      text-align: center;
+      .imgd{
+    background-image:url(https://ttfb-bs-s3.25sprout.work/upload/menu_category/20201215-f3b4c95eaf3cbe9c6564909e63902471.jpg);
+    background-position: center;
+    background-size:cover;
+    padding-top: 100%;
+    width: 100%;
+    border-radius: 50%;
+    }
+      .text{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1.7px;
+        margin-top: 20px;
+      }
+    }
+        }
+      }

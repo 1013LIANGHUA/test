@@ -1,0 +1,43 @@
+.image{
+      
+    background-image: url('https://ttfb-bs-s3.25sprout.work/upload/banner/20181119-4706b4a3f330697a2b5674dd7b8a2cbc.jpg');
+    background-position: center;
+    background-size:cover;
+    position: relative;
+   width: 100%;
+   height: calc(100vh - 110px);
+   
+   
+   
+    .texta{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: aliceblue;
+      font-size: 36px;
+      font-weight: 700;
+    }
+    .scroll{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%,0%);
+      .textb{
+      color: rgb(255, 255, 255);
+      font-weight: 700;
+      }
+      span{
+        background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-shrink: 0;
+    height: 20px;
+    margin-top: 15px;
+    width: 2px;
+    margin-left: 50%;
+
+      }
+    
+     
+    }
+  }

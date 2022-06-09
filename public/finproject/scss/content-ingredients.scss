@@ -1,0 +1,23 @@
+.ingredients-container{
+    background-color: #161616;
+    padding: 30px calc(50% - 530px);
+    .ingredients-info{
+        border-top: 1px solid #fff;
+        padding-top: 50px;
+        color: #fff;
+    
+        .title{
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin: 0 0 15px;
+        }
+        .description{
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 1.58px;
+            line-height: 1.57;
+            white-space: pre-line;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crown Clothing</title>
+    <link rel="stylesheet" href="/crown_xx/css/style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="/crown2_xx" class="logo-container">
+        <img src="/crown_xx/assets/crown.svg" />
+      </a>
+      <div class="options">
+        <a href="/crown2_xx/shop_xx" class="option">Shop</a>
+        <a href="/shop_xx" class="option">Contact</a>
+        <a href="/signin" class="option">Sign In</a>
+        <div class="cart-icon" onclick="cartToggle()">
+          <img
+            class="shopping-icon"
+            src="/crown_xx/assets/shopping-bag.svg"
+            alt=""
+          />
+        </div>
+        <div class="cart-dropdown">
+          <div class="cart-items">
+            <div class="cart-item">
+              <img src="https://i.ibb.co/QdJwgmp/brown-cowboy.png" alt="item" />
+              <div class="item-details">
+                <span class="name">Brown Cowboy</span>
+                <span class="price">4 * $35</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img
+                src="https://i.ibb.co/mJS6vz0/blue-jean-jacket.png"
+                alt="item"
+              />
+              <div class="item-details">
+                <span class="name">Blue Jean Jacket</span>
+                <span class="price">1 * $90</span>
+              </div>
+            </div>
+          </div>
+          <button class="custom-button">GO TO CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="homepage">
+      <h3><%= title %> -- <%= name %> <%= id %></h3>
+
+      <div class="directory-menu">
+        <% data.forEach( item => { %>
+        <div class="<%= item.size %> menu-item">
+          <img
+            class="background-image"
+            src="/crown_xx<%= item.local_url %>"
+            alt=""
+          />
+          <a href="<%= item.link_url %>" class="content">
+            <h1 class="title"><%= item.name %></h1>
+            <span class="subtitle">SHOP NOW</span>
+          </a>
+        </div>
+        <% }) %>
+      </div>
+    </div>
+
+    <script>
+      function cartToggle() {
+        p = document.querySelector('.cart-dropdown');
+        p.classList.toggle('show');
+      }
+    </script>
+  </body>
+</html>
